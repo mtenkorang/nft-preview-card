@@ -34,7 +34,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [GitHub Repo](https://github.com/mtenkorang/nft-preview-card)
-- Live Site URL: [NFT Card Previer](https://mtenkorang-nftpreview.netlify.app/)
+- Live Site URL: [NFT Card Preview](https://mtenkorang-nftpreview.netlify.app/)
 
 ## My process
 

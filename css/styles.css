@@ -74,74 +74,40 @@ main.card .img-wrapper .overlay {
 main.card .img-wrapper .overlay:hover {
   opacity: 0.4;
   background-color: hsl(178deg, 100%, 50%);
+  cursor: pointer;
 }
 
-/*div.overlay, div.content h1, span {
-    @include active-text;
+div.content h1 {
+  color: hsl(0deg, 0%, 100%);
+  font-size: 1.25rem;
+}
+div.content p {
+  color: hsl(215deg, 51%, 70%);
+}
+div.content ul li svg {
+  margin-right: 5px;
+}
+div.content ul li#item1 {
+  color: cyan;
+}
+div.content ul li#item2 {
+  color: hsl(215deg, 51%, 70%);
 }
 
-div.content {
-    h1{
-        color: $white;
-        font-size: 20px;
-        margin: 15px 0;
-        @include active-text;
-    }
-    p{
-        color: $soft-blue;
-        font-size: $font-regular;
-        margin: 15px 0px 5px 0px;
-
+.avatar-wrapper img {
+  width: 20%;
+}
+.avatar-wrapper span {
+  color: hsl(0deg, 0%, 100%);
 }
 
-div.content{
+div.content h1:hover, span:hover {
+  color: hsl(178deg, 100%, 50%);
+  cursor: pointer;
+  -webkit-transform: opacity;
+          transform: opacity;
+}
 
-display: -ms-grid;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-areas: 
-    "item1 item2"
-    "item3 item3";
-
-    .item1 {
-        @include flex;
-        p{
-            color: $cyan;
-            margin-left: 5px;
-        }
-    }
-
-    .item2 {
-        @include flex;
-        justify-content: flex-end;
-        p{
-            margin-left: 5px;
-        }
-    }
-
-    .item3 {
-        grid-area: item3;
-        border-top: 0.5px solid $soft-blue;
-        display: flex;
-        align-items: center;
-        padding-top: 10px;
-        margin-top: 15px;
-        p{
-            margin: 0 10px;
-            color: $white;
-            @include active-text;
-            span{
-                color: $soft-blue;
-            }
-
-    }
-
-    img.avatar-img{
-    width: 15%;
-    border: 1px solid $white;
-    border-radius: 100%;
-    }
- }*/
 footer div {
   margin-top: 20px;
 }

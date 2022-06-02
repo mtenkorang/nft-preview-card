@@ -134,3 +134,12 @@ div.content h1:hover, span:hover {
   -webkit-transform: opacity;
           transform: opacity;
 }
+
+/*Media Queries
+------------------*/
+@media only screen and (max-width: 425px) {
+  main.card {
+    width: 18rem;
+    height: 31rem;
+  }
+}

@@ -1,11 +1,115 @@
-/*RESETS
-----------*/
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;700&display=swap");
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: "Outfit", sans-serif;
 }
 
-/*COLORS
-----------*/
+div.attribution {
+  text-align: center;
+  font-family: "Outfit", sans-serif;
+  font-size: 11px;
+}
+div.attribution a {
+  color: hsl(228deg, 45%, 44%);
+  text-decoration: none;
+}
+
+body {
+  background-color: hsl(217deg, 54%, 11%);
+  height: 100vh;
+  width: 100%;
+  display: grid;
+  place-content: center;
+}
+
+main.container {
+  -webkit-box-shadow: 0 0 15px hsl(216deg, 50%, 16%);
+          box-shadow: 0 0 15px hsl(216deg, 50%, 16%);
+  background-color: hsl(216deg, 50%, 16%);
+  max-width: 20rem;
+  height: 34rem;
+  border-radius: 10px;
+  padding: 15px;
+}
+main.container .main-img {
+  width: 100%;
+  border-radius: 10px;
+}
+main.container h1 {
+  color: hsl(0deg, 0%, 100%);
+  font-size: 20px;
+  margin: 15px 0;
+}
+main.container h1:hover {
+  color: hsl(178deg, 100%, 50%);
+}
+main.container p {
+  color: hsl(215deg, 51%, 70%);
+  font-size: 18px;
+  margin: 15px 0px 5px 0px;
+}
+
+div.content {
+  display: -ms-grid;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas: "item1 item2" "item3 item3";
+}
+div.content .item1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+div.content .item1 p {
+  color: hsl(178deg, 100%, 50%);
+  margin-left: 5px;
+}
+div.content .item2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+div.content .item2 p {
+  margin-left: 5px;
+}
+div.content .item3 {
+  grid-area: item3;
+  border-top: 1px solid hsl(215deg, 51%, 70%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 10px;
+  margin-top: 15px;
+}
+div.content .item3 p {
+  margin: 0 10px;
+  color: hsl(0deg, 0%, 100%);
+}
+div.content .item3 p:hover {
+  color: hsl(178deg, 100%, 50%);
+}
+div.content .item3 p span {
+  color: hsl(215deg, 51%, 70%);
+}
+div.content img.avatar-img {
+  width: 15%;
+}
+
+footer div {
+  margin-top: 20px;
+}

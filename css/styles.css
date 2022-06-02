@@ -19,7 +19,7 @@ footer.attribution a {
 
 body {
   background-color: hsl(217deg, 54%, 11%);
-  height: 100vh;
+  max-height: 90vh;
   display: grid;
   place-items: center;
 }

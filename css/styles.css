@@ -30,7 +30,7 @@ main.card {
   -webkit-box-shadow: 0 0 15px hsl(216deg, 50%, 16%);
           box-shadow: 0 0 15px hsl(216deg, 50%, 16%);
   background-color: hsl(216deg, 50%, 16%);
-  max-width: 21rem;
+  max-width: 20rem;
   height: 34rem;
   border-radius: 10px;
   padding: 20px;
@@ -141,5 +141,9 @@ div.content h1:hover, span:hover {
   main.card {
     width: 18rem;
     height: 31rem;
+  }
+
+  .content p {
+    font-size: 15px;
   }
 }

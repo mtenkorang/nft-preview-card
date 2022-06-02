@@ -31,7 +31,7 @@ main.card {
           box-shadow: 0 0 15px hsl(216deg, 50%, 16%);
   background-color: hsl(216deg, 50%, 16%);
   max-width: 21rem;
-  height: 35rem;
+  height: 34rem;
   border-radius: 10px;
   padding: 20px;
 }
@@ -103,11 +103,11 @@ div.content ul li#item2 {
   color: hsl(215deg, 51%, 70%);
 }
 div.content hr {
-  border-radius: 50px;
-  outline: none;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  background-color: hsl(215deg, 51%, 70%);
+  border-top: 0.2px solid hsl(215deg, 51%, 70%);
+  border-bottom: 0;
+  border-left: 0;
+  border-right: 0;
+  margin-bottom: 10px;
 }
 
 .avatar-wrapper {

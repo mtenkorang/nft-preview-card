@@ -73,6 +73,7 @@ main.card .img-wrapper .overlay:hover {
 /*Text Content Design
 ------------------------*/
 div.content h1 {
+  width: 62%;
   color: hsl(0deg, 0%, 100%);
   font-size: 1.25rem;
   margin: 15px 0;
